@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Estonian II-pillar pension funds — look-through holdings dataset, 31.05.2026"
+authors:
+  - family-names: Ehrlich
+    given-names: Sten
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-19"
+url: "https://github.com/StenEhrlich/estonian-pension-lookthrough"
+license: CC-BY-4.0
+keywords:
+  - pension funds
+  - active share
+  - closet indexing
+  - Estonia
+  - look-through holdings

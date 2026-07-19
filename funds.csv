@@ -1,0 +1,24 @@
+code,name,manager,role,benchmark_code,equity_coverage_pct,matching,tuk00_variant
+K1960,Swedbank Pensionifond K1960,Swedbank,active,Ki,100.0,ISIN; name->ISIN resolved via the parsed stock lists; Option A same-index for avowed index units; Robur active units = real holdings,bond_vector
+K1970,Swedbank Pensionifond K1970,Swedbank,active,Ki,100.0,ISIN; name->ISIN resolved via the parsed stock lists; Option A same-index for avowed index units; Robur active units = real holdings,bond_vector
+K1980,Swedbank Pensionifond K1980,Swedbank,active,Ki,100.0,ISIN; name->ISIN resolved via the parsed stock lists; Option A same-index for avowed index units; Robur active units = real holdings,bond_vector
+K1990,Swedbank Pensionifond K1990,Swedbank,active,Ki,100.0,ISIN; name->ISIN resolved via the parsed stock lists; Option A same-index for avowed index units; Robur active units = real holdings,bond_vector
+K2000,Swedbank Pensionifond K2000,Swedbank,active,Ki,100.0,ISIN; name->ISIN resolved via the parsed stock lists; Option A same-index for avowed index units; Robur active units = real holdings,bond_vector
+KKONS,Swedbank Pensionifond Konservatiivne,Swedbank,active,Ki,0,ISIN; name->ISIN resolved via the parsed stock lists; Option A same-index for avowed index units; Robur active units = real holdings,bond_vector
+Ki,Swedbank Pensionifond Indeks,Swedbank,benchmark,Ki,100.0,ISIN; name->ISIN resolved via the parsed stock lists; Option A same-index for avowed index units; Robur active units = real holdings,bond_vector
+LIK75,LHV Pensionifond Indeks,LHV,benchmark,LIK75,100.0,normalized NAME as universal key (benchmark same-index CSVs are name-only; thematic eodhd files ticker-only) — Decision C,bond_vector
+LLK50,LHV Pensionifond Ettevõtlik,LHV,active,LIK75,100.0,normalized NAME as universal key (benchmark same-index CSVs are name-only; thematic eodhd files ticker-only) — Decision C,bond_vector
+LMK25,LHV Pensionifond Tasakaalukas,LHV,active,LIK75,100.0,normalized NAME as universal key (benchmark same-index CSVs are name-only; thematic eodhd files ticker-only) — Decision C,bond_vector
+LXK00,LHV Pensionifond Rahulik,LHV,active,LIK75,100.0,normalized NAME as universal key (benchmark same-index CSVs are name-only; thematic eodhd files ticker-only) — Decision C,bond_vector
+LXK75,LHV Pensionifond Julge,LHV,active,LIK75,100.0,normalized NAME as universal key (benchmark same-index CSVs are name-only; thematic eodhd files ticker-only) — Decision C,bond_vector
+NIK100,Luminor Pensionifond Indeks,Luminor,benchmark,NIK100,100.0,"name->source-ISIN (Option A same-index for avowed index funds), then ISIN with name->ISIN bridging",bond_vector
+NPK00,Luminor 61-65,Luminor,active,NIK100,100.0,"name->source-ISIN (Option A same-index for avowed index funds), then ISIN with name->ISIN bridging",bond_vector
+NPK25,Luminor 56+,Luminor,active,NIK100,100.0,"name->source-ISIN (Option A same-index for avowed index funds), then ISIN with name->ISIN bridging",bond_vector
+NPK50,Luminor 50-56,Luminor,active,NIK100,100.0,"name->source-ISIN (Option A same-index for avowed index funds), then ISIN with name->ISIN bridging",bond_vector
+NPK75,Luminor 16-50,Luminor,active,NIK100,100.0,"name->source-ISIN (Option A same-index for avowed index funds), then ISIN with name->ISIN bridging",bond_vector
+SEK00,SEB Pensionifond 65+,SEB,active,SIK75,100.0,"ISIN with name->ISIN bridging across all SEB subfund files; opaque units stay active; bonds name-keyed (Robeco/Schroder real, Amundi->IEAC same-index, UBS avg proxy, Fair Oaks CLO opaque)",bond_vector_namekeyed
+SEK100,SEB Pensionifond 18+,SEB,active,SIK75,100.0,"ISIN with name->ISIN bridging across all SEB subfund files; opaque units stay active; bonds name-keyed (Robeco/Schroder real, Amundi->IEAC same-index, UBS avg proxy, Fair Oaks CLO opaque)",bond_vector_namekeyed
+SEK25,SEB Pensionifond 60+,SEB,active,SIK75,100.0,"ISIN with name->ISIN bridging across all SEB subfund files; opaque units stay active; bonds name-keyed (Robeco/Schroder real, Amundi->IEAC same-index, UBS avg proxy, Fair Oaks CLO opaque)",bond_vector_namekeyed
+SEK50,SEB Pensionifond 55+,SEB,active,SIK75,100.0,"ISIN with name->ISIN bridging across all SEB subfund files; opaque units stay active; bonds name-keyed (Robeco/Schroder real, Amundi->IEAC same-index, UBS avg proxy, Fair Oaks CLO opaque)",bond_vector_namekeyed
+SIK75,SEB Pensionifond Indeks,SEB,benchmark,SIK75,100.0,"ISIN with name->ISIN bridging across all SEB subfund files; opaque units stay active; bonds name-keyed (Robeco/Schroder real, Amundi->IEAC same-index, UBS avg proxy, Fair Oaks CLO opaque)",bond_vector_namekeyed
+TUK00,Tuleva Maailma Võlakirjade Pensionifond,Tuleva,benchmark,,,,

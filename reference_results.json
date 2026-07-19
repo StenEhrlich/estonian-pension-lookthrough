@@ -1,0 +1,452 @@
+{
+ "NPK75": {
+  "manager": "Luminor",
+  "benchmark": "NIK100",
+  "sleeves": {
+   "eq": 94.83,
+   "bond": 3.93,
+   "re": 0.45,
+   "pe": 0.69,
+   "gold": 0.0,
+   "cash": 0.68,
+   "total": 100.58
+  },
+  "equity_AS": 14.25,
+  "bond_AS": 98.18,
+  "composite_AS": 18.39,
+  "composite_decomp": {
+   "equity": 13.44,
+   "bond": 4.39,
+   "re": 0.22,
+   "pe": 0.34,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "NPK50": {
+  "manager": "Luminor",
+  "benchmark": "NIK100",
+  "sleeves": {
+   "eq": 81.07,
+   "bond": 11.19,
+   "re": 5.98,
+   "pe": 1.45,
+   "gold": 0.0,
+   "cash": 0.27,
+   "total": 99.96
+  },
+  "equity_AS": 16.29,
+  "bond_AS": 81.29,
+  "composite_AS": 29.72,
+  "composite_decomp": {
+   "equity": 13.21,
+   "bond": 12.8,
+   "re": 2.99,
+   "pe": 0.73,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "NPK25": {
+  "manager": "Luminor",
+  "benchmark": "NIK100",
+  "sleeves": {
+   "eq": 41.28,
+   "bond": 53.77,
+   "re": 3.65,
+   "pe": 0.84,
+   "gold": 0.0,
+   "cash": 0.22,
+   "total": 99.76
+  },
+  "equity_AS": 14.73,
+  "bond_AS": 71.43,
+  "composite_AS": 49.0,
+  "composite_decomp": {
+   "equity": 6.1,
+   "bond": 40.65,
+   "re": 1.83,
+   "pe": 0.42,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "NPK00": {
+  "manager": "Luminor",
+  "benchmark": "NIK100",
+  "sleeves": {
+   "eq": 9.73,
+   "bond": 89.41,
+   "re": 0,
+   "pe": 0,
+   "gold": 0.0,
+   "cash": 0.59,
+   "total": 99.73
+  },
+  "equity_AS": 13.64,
+  "bond_AS": 70.97,
+  "composite_AS": 64.95,
+  "composite_decomp": {
+   "equity": 1.33,
+   "bond": 63.62,
+   "re": 0.0,
+   "pe": 0.0,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "SEK100": {
+  "manager": "SEB",
+  "benchmark": "SIK75",
+  "sleeves": {
+   "eq": 88.72,
+   "bond": 3.23,
+   "re": 3.41,
+   "pe": 2.37,
+   "gold": 0.0,
+   "cash": 0,
+   "total": 97.73
+  },
+  "equity_AS": 34.46,
+  "bond_AS": 99.99,
+  "composite_AS": 38.81,
+  "composite_decomp": {
+   "equity": 32.55,
+   "bond": 3.3,
+   "re": 1.74,
+   "pe": 1.21,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "SEK50": {
+  "manager": "SEB",
+  "benchmark": "SIK75",
+  "sleeves": {
+   "eq": 80.51,
+   "bond": 8.33,
+   "re": 8.26,
+   "pe": 1.91,
+   "gold": 0.0,
+   "cash": 0,
+   "total": 99.01
+  },
+  "equity_AS": 34.45,
+  "bond_AS": 81.5,
+  "composite_AS": 42.54,
+  "composite_decomp": {
+   "equity": 30.55,
+   "bond": 6.86,
+   "re": 4.17,
+   "pe": 0.96,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "SEK25": {
+  "manager": "SEB",
+  "benchmark": "SIK75",
+  "sleeves": {
+   "eq": 48.19,
+   "bond": 40.65,
+   "re": 9.85,
+   "pe": 0.45,
+   "gold": 0.0,
+   "cash": 0,
+   "total": 99.14
+  },
+  "equity_AS": 18.39,
+  "bond_AS": 89.77,
+  "composite_AS": 53.1,
+  "composite_decomp": {
+   "equity": 11.1,
+   "bond": 36.81,
+   "re": 4.97,
+   "pe": 0.23,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "SEK00": {
+  "manager": "SEB",
+  "benchmark": "SIK75",
+  "sleeves": {
+   "eq": 8.81,
+   "bond": 90.47,
+   "re": 0,
+   "pe": 0,
+   "gold": 0.0,
+   "cash": 0,
+   "total": 99.28
+  },
+  "equity_AS": 27.94,
+  "bond_AS": 58.59,
+  "composite_AS": 55.87,
+  "composite_decomp": {
+   "equity": 2.48,
+   "bond": 53.39,
+   "re": 0.0,
+   "pe": 0.0,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "K1960": {
+  "manager": "Swedbank",
+  "benchmark": "Ki",
+  "sleeves": {
+   "eq": 28.31,
+   "bond": 58.81,
+   "re": 10.32,
+   "pe": 0.43,
+   "gold": 0.0,
+   "cash": 2.02,
+   "total": 99.89
+  },
+  "equity_AS": 50.59,
+  "bond_AS": 75.48,
+  "composite_AS": 68.54,
+  "composite_decomp": {
+   "equity": 14.34,
+   "bond": 48.82,
+   "re": 5.17,
+   "pe": 0.22,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "K1970": {
+  "manager": "Swedbank",
+  "benchmark": "Ki",
+  "sleeves": {
+   "eq": 86.8,
+   "bond": 1.17,
+   "re": 7.75,
+   "pe": 2.33,
+   "gold": 0.0,
+   "cash": 1.8,
+   "total": 99.85
+  },
+  "equity_AS": 48.0,
+  "bond_AS": 100.0,
+  "composite_AS": 52.99,
+  "composite_decomp": {
+   "equity": 41.72,
+   "bond": 6.22,
+   "re": 3.88,
+   "pe": 1.17,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "K1980": {
+  "manager": "Swedbank",
+  "benchmark": "Ki",
+  "sleeves": {
+   "eq": 89.99,
+   "bond": 0.88,
+   "re": 4.93,
+   "pe": 2.55,
+   "gold": 0.0,
+   "cash": 1.52,
+   "total": 99.87
+  },
+  "equity_AS": 47.97,
+  "bond_AS": 100.0,
+  "composite_AS": 51.6,
+  "composite_decomp": {
+   "equity": 43.23,
+   "bond": 4.63,
+   "re": 2.47,
+   "pe": 1.28,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "K1990": {
+  "manager": "Swedbank",
+  "benchmark": "Ki",
+  "sleeves": {
+   "eq": 99.72,
+   "bond": 0,
+   "re": 0,
+   "pe": 0,
+   "gold": 0.0,
+   "cash": 0.19,
+   "total": 99.91
+  },
+  "equity_AS": 1.31,
+  "bond_AS": null,
+  "composite_AS": 1.31,
+  "composite_decomp": {
+   "equity": 1.31,
+   "bond": 0.0,
+   "re": 0.0,
+   "pe": 0.0,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "K2000": {
+  "manager": "Swedbank",
+  "benchmark": "Ki",
+  "sleeves": {
+   "eq": 97.89,
+   "bond": 0,
+   "re": 0.85,
+   "pe": 0.29,
+   "gold": 0.0,
+   "cash": 1.18,
+   "total": 100.21
+  },
+  "equity_AS": 49.98,
+  "bond_AS": null,
+  "composite_AS": 49.96,
+  "composite_decomp": {
+   "equity": 48.82,
+   "bond": 0.57,
+   "re": 0.42,
+   "pe": 0.14,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "KKONS": {
+  "manager": "Swedbank",
+  "benchmark": "Ki",
+  "sleeves": {
+   "eq": 0,
+   "bond": 85.31,
+   "re": 12.61,
+   "pe": 0,
+   "gold": 0.0,
+   "cash": 2.06,
+   "total": 99.98
+  },
+  "equity_AS": null,
+  "bond_AS": 76.92,
+  "composite_AS": 76.31,
+  "composite_decomp": {
+   "equity": 0.0,
+   "bond": 70.0,
+   "re": 6.31,
+   "pe": 0.0,
+   "gold": 0.0,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 0
+ },
+ "LLK50": {
+  "manager": "LHV",
+  "benchmark": "LIK75",
+  "sleeves": {
+   "eq": 31.67,
+   "bond": 9.4,
+   "re": 14.45,
+   "pe": 33.76,
+   "gold": 5.77,
+   "cash": 5.35,
+   "total": 100.4
+  },
+  "equity_AS": 95.37,
+  "bond_AS": 80.27,
+  "composite_AS": 89.96,
+  "composite_decomp": {
+   "equity": 30.08,
+   "bond": 33.0,
+   "re": 7.2,
+   "pe": 16.81,
+   "gold": 2.87,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "LXK75": {
+  "manager": "LHV",
+  "benchmark": "LIK75",
+  "sleeves": {
+   "eq": 46.69,
+   "bond": 16.52,
+   "re": 8.37,
+   "pe": 16.74,
+   "gold": 5.61,
+   "cash": 6.36,
+   "total": 100.29
+  },
+  "equity_AS": 94.88,
+  "bond_AS": 80.27,
+  "composite_AS": 84.18,
+  "composite_decomp": {
+   "equity": 44.17,
+   "bond": 24.69,
+   "re": 4.17,
+   "pe": 8.35,
+   "gold": 2.8,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "LMK25": {
+  "manager": "LHV",
+  "benchmark": "LIK75",
+  "sleeves": {
+   "eq": 8.26,
+   "bond": 56.31,
+   "re": 18.44,
+   "pe": 7.13,
+   "gold": 6.43,
+   "cash": 3.64,
+   "total": 100.21
+  },
+  "equity_AS": 99.36,
+  "bond_AS": 80.27,
+  "composite_AS": 80.53,
+  "composite_decomp": {
+   "equity": 8.19,
+   "bond": 56.37,
+   "re": 9.2,
+   "pe": 3.56,
+   "gold": 3.21,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ },
+ "LXK00": {
+  "manager": "LHV",
+  "benchmark": "LIK75",
+  "sleeves": {
+   "eq": 0.49,
+   "bond": 89.58,
+   "re": 0,
+   "pe": 0,
+   "gold": 5.65,
+   "cash": 4.36,
+   "total": 100.08
+  },
+  "equity_AS": 100.0,
+  "bond_AS": 80.27,
+  "composite_AS": 76.87,
+  "composite_decomp": {
+   "equity": 0.49,
+   "bond": 73.55,
+   "re": 0.0,
+   "pe": 0.0,
+   "gold": 2.82,
+   "cash": 0.0
+  },
+  "equity_coverage_pct": 100.0
+ }
+}
