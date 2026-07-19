@@ -15,10 +15,9 @@ these CSVs alone.
 
 | File | Contents |
 |---|---|
-| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code, equity-coverage %, matching rule, TUK00 bond-vector variant, and composite-benchmark slice weights `bench_equity_pct`/`bench_tuk00_pct`/`bench_cash_pct` (% of fund total, sum 100; SEB per its method spec: equity index covers equity+PE+RE+cash, TUK00 exactly the bond sleeve — other managers: equity index covers equity, TUK00 covers bonds+PE+RE+gold, cash-neutral) |
+| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code, equity-coverage %, matching rule, TUK00 bond-vector variant |
 | `fund_sleeves.csv` | asset-class weights per fund in % of NAV (`eq`, `bond`, `re`, `pe`, `gold`, `cash`, `total`) |
-| `fund_holdings.csv` | active funds' holdings vectors: `code, vector, key, weight_pct`; each (fund, vector) sums to 100 (within-sleeve renormalised) |
-| `benchmark_holdings.csv` | same shape for the benchmark portfolios: four index funds looked through to securities, TUK00 to ~1 000 bond issuers |
+| `holdings.csv` | every portfolio's holdings vectors: `code, vector, key, weight_pct` — active funds, the four index funds (looked through to securities) and TUK00 (~1 000 bond issuers); each (fund, vector) sums to 100 (within-sleeve renormalised) |
 | `sources.csv` | full citation registry: every raw source file with provider, URL, download date, as-of date, and which underlying funds it serves (`EXACT` vs `SAME`-index match) |
 | `reference_results.json` | the published equity/bond/composite Active Share per fund — the golden values any recomputation must reproduce |
 | `active_share.ipynb` | the complete calculation: loads the CSVs (locally or from raw.githubusercontent.com), computes all three Active Share measures, asserts every fund against the reference results |
@@ -47,6 +46,10 @@ compared against).
   because a fund and an index almost never hold identical bond issues. Where a fund holds
   an index fund whose exact constituents are unpublished, the current same-index physical
   ETF was substituted — every such substitution is flagged `SAME` in `sources.csv`.
+- **Composite-benchmark rule (uniform across managers, written method revision
+  2026-07-19):** each fund's composite benchmark = its equity share in the manager's own
+  index fund + (bonds+PE+RE+gold) share in TUK00, cash-neutral. Positions no passive
+  benchmark can hold (PE, real estate, gold) count as fully active.
 - **Construction pipeline:** built with LLM assistance (Claude), with all methodology
   decisions pre-registered and signed off by the author before computation, and verified by
   a four-layer check suite (golden toy tests + benchmark zero-assertions; parsed data vs
