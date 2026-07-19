@@ -15,7 +15,7 @@ these CSVs alone.
 
 | File | Contents |
 |---|---|
-| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code, equity-coverage %, the matching rule used, which TUK00 bond-vector variant applies |
+| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code, equity-coverage %, matching rule, TUK00 bond-vector variant, and composite-benchmark slice weights `bench_equity_pct`/`bench_tuk00_pct`/`bench_cash_pct` (% of fund total, sum 100; SEB per its method spec: equity index covers equity+PE+RE+cash, TUK00 exactly the bond sleeve — other managers: equity index covers equity, TUK00 covers bonds+PE+RE+gold, cash-neutral) |
 | `fund_sleeves.csv` | asset-class weights per fund in % of NAV (`eq`, `bond`, `re`, `pe`, `gold`, `cash`, `total`) |
 | `fund_holdings.csv` | active funds' holdings vectors: `code, vector, key, weight_pct`; each (fund, vector) sums to 100 (within-sleeve renormalised) |
 | `benchmark_holdings.csv` | same shape for the benchmark portfolios: four index funds looked through to securities, TUK00 to ~1 000 bond issuers |
