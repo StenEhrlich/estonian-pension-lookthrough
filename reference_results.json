@@ -12,11 +12,11 @@
    "total": 100.58
   },
   "equity_AS": 14.25,
-  "bond_AS": 98.18,
-  "composite_AS": 18.39,
+  "bond_AS": 98.59,
+  "composite_AS": 18.41,
   "composite_decomp": {
    "equity": 13.44,
-   "bond": 4.39,
+   "bond": 4.41,
    "re": 0.22,
    "pe": 0.34,
    "gold": 0.0,
@@ -37,11 +37,11 @@
    "total": 99.96
   },
   "equity_AS": 16.29,
-  "bond_AS": 81.29,
-  "composite_AS": 29.72,
+  "bond_AS": 80.73,
+  "composite_AS": 29.62,
   "composite_decomp": {
    "equity": 13.21,
-   "bond": 12.8,
+   "bond": 12.69,
    "re": 2.99,
    "pe": 0.73,
    "gold": 0.0,
@@ -62,11 +62,11 @@
    "total": 99.76
   },
   "equity_AS": 14.73,
-  "bond_AS": 71.43,
-  "composite_AS": 49.0,
+  "bond_AS": 71.14,
+  "composite_AS": 48.78,
   "composite_decomp": {
    "equity": 6.1,
-   "bond": 40.65,
+   "bond": 40.43,
    "re": 1.83,
    "pe": 0.42,
    "gold": 0.0,
@@ -87,11 +87,11 @@
    "total": 99.73
   },
   "equity_AS": 13.64,
-  "bond_AS": 70.97,
-  "composite_AS": 64.95,
+  "bond_AS": 71.03,
+  "composite_AS": 65.01,
   "composite_decomp": {
    "equity": 1.33,
-   "bond": 63.62,
+   "bond": 63.68,
    "re": 0.0,
    "pe": 0.0,
    "gold": 0.0,
@@ -212,11 +212,11 @@
    "total": 99.89
   },
   "equity_AS": 50.59,
-  "bond_AS": 75.48,
-  "composite_AS": 68.54,
+  "bond_AS": 69.76,
+  "composite_AS": 64.79,
   "composite_decomp": {
    "equity": 14.34,
-   "bond": 48.82,
+   "bond": 45.07,
    "re": 5.17,
    "pe": 0.22,
    "gold": 0.0,
@@ -337,11 +337,11 @@
    "total": 99.98
   },
   "equity_AS": null,
-  "bond_AS": 76.92,
-  "composite_AS": 76.31,
+  "bond_AS": 73.37,
+  "composite_AS": 72.84,
   "composite_decomp": {
    "equity": 0.0,
-   "bond": 70.0,
+   "bond": 66.53,
    "re": 6.31,
    "pe": 0.0,
    "gold": 0.0,
@@ -387,7 +387,7 @@
    "total": 100.29
   },
   "equity_AS": 94.88,
-  "bond_AS": 80.27,
+  "bond_AS": 80.26,
   "composite_AS": 84.18,
   "composite_decomp": {
    "equity": 44.17,
@@ -412,11 +412,11 @@
    "total": 100.21
   },
   "equity_AS": 99.36,
-  "bond_AS": 80.27,
-  "composite_AS": 80.53,
+  "bond_AS": 79.76,
+  "composite_AS": 80.08,
   "composite_decomp": {
    "equity": 8.19,
-   "bond": 56.37,
+   "bond": 55.93,
    "re": 9.2,
    "pe": 3.56,
    "gold": 3.21,
@@ -437,11 +437,11 @@
    "total": 100.08
   },
   "equity_AS": 100.0,
-  "bond_AS": 80.27,
-  "composite_AS": 76.87,
+  "bond_AS": 79.76,
+  "composite_AS": 76.38,
   "composite_decomp": {
    "equity": 0.49,
-   "bond": 73.55,
+   "bond": 73.07,
    "re": 0.0,
    "pe": 0.0,
    "gold": 2.82,

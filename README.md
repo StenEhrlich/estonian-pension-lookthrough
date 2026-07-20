@@ -15,7 +15,7 @@ these CSVs alone.
 
 | File | Contents |
 |---|---|
-| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code (documents the thesis pairing — the notebook assigns benchmarks itself, so alternative pairings need no dataset change), equity-coverage %, matching rule, TUK00 bond-vector variant (a data property: which key regime the fund's bond vector uses) |
+| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code (documents the thesis pairing — the notebook assigns benchmarks itself, so alternative pairings need no dataset change), equity-coverage %, matching rule |
 | `fund_sleeves.csv` | asset-class weights per fund in % of NAV (`eq`, `bond`, `re`, `pe`, `gold`, `cash`, `total`) |
 | `holdings.csv` | every portfolio's holdings vectors: `code, vector, key, weight_pct` — active funds, the four index funds (looked through to securities) and TUK00 (~1 000 bond issuers); each (fund, vector) sums to 100 (within-sleeve renormalised) |
 | `sources.csv` | full citation registry: every raw source file with provider, URL, download date, as-of date, and which underlying funds it serves (`EXACT` vs `SAME`-index match) |
@@ -42,7 +42,7 @@ compared against).
   re-download the raw inputs from the URLs in `sources.csv`.
 - **Matching:** equities by ISIN where both sides carry ISINs, otherwise by normalised
   name (the rule actually used per manager is recorded in `funds.csv`); bonds are
-  aggregated to **issuer** level (government by country, corporates by normalised name),
+  aggregated to **issuer** level (government by country, corporates by normalised name — one key namespace across all portfolios),
   because a fund and an index almost never hold identical bond issues. Where a fund holds
   an index fund whose exact constituents are unpublished, the current same-index physical
   ETF was substituted — every such substitution is flagged `SAME` in `sources.csv`.
