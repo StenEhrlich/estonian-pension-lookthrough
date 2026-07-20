@@ -15,7 +15,7 @@ these CSVs alone.
 
 | File | Contents |
 |---|---|
-| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code, equity-coverage %, matching rule, TUK00 bond-vector variant |
+| `funds.csv` | one row per fund: code, name, manager, role (`active`/`benchmark`), benchmark code (documents the thesis pairing — the notebook assigns benchmarks itself, so alternative pairings need no dataset change), equity-coverage %, matching rule, TUK00 bond-vector variant (a data property: which key regime the fund's bond vector uses) |
 | `fund_sleeves.csv` | asset-class weights per fund in % of NAV (`eq`, `bond`, `re`, `pe`, `gold`, `cash`, `total`) |
 | `holdings.csv` | every portfolio's holdings vectors: `code, vector, key, weight_pct` — active funds, the four index funds (looked through to securities) and TUK00 (~1 000 bond issuers); each (fund, vector) sums to 100 (within-sleeve renormalised) |
 | `sources.csv` | full citation registry: every raw source file with provider, URL, download date, as-of date, and which underlying funds it serves (`EXACT` vs `SAME`-index match) |
